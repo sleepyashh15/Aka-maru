@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: Nanami6=
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Are you ready for the final word?
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+      spriteIndex: 2
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Bring it on!
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Alright, here goes the final word!
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "The meaning of \u201CSayonara\u201D is \u201CGoodbye.\u201D"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 96626aa4bde3a5d4da67a268db041a7e, type: 2}
+      spriteIndex: 18
+      actionType: 2
+      coords: {x: -300, y: 120}
+      moveSpeed: 2
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Sayonara is commonly used when parting ways with each other if you know
+      are not going to see them for a long time.
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Or when you are saying goodbye to someone for the last time.
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Were you able to keep up?
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 96626aa4bde3a5d4da67a268db041a7e, type: 2}
+      spriteIndex: 18
+      actionType: 3
+      coords: {x: -300, y: 120}
+      moveSpeed: 2
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: f6de4a74d3f649940a195e450a7aa2c0, type: 2}

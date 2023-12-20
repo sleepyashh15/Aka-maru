@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: Nanami1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Hello, Maru! Oh, and you must be Aka!
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Nice to meet you, I\u2019m Nanami Saito! I\u2019ve been friends with Maru
+      since way back. You can call me Nanami."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+      spriteIndex: 1
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I\u2019m a member of the Idol Group Narutozaka47!"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "You want to learn Japanese, right? I\u2019d be glad to help you!"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Thank you, Nanami!
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "You\u2019re currently learning about introductions and greetings? "
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Yes.
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I can help teach you some words or phrases that would help you with Introductions
+      and Greetings.
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: 'Ready? '
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+      spriteIndex: 1
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Anytime!
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Here we go!
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: 723a0dc06bbcdb14baa6e930a432060e, type: 2}

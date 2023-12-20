@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa21d4123d556443abbbad79a10b72f, type: 3}
+  m_Name: FailQuiz
+  m_EditorClassIdentifier: 
+  labels:
+  - text: '"Retry Quiz"'
+    nextScene: {fileID: 11400000, guid: 51edee7da5b82d74caf2d2caf0a193f6, type: 2}
+  - text: '"Restart from Lesson"'
+    nextScene: {fileID: 11400000, guid: 910c602904f7ca345836be9a88b681a1, type: 2}

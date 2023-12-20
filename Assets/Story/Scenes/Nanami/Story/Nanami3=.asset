@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: Nanami3=
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "The next term is \u201CDou Itashimashite.\u201D"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 96626aa4bde3a5d4da67a268db041a7e, type: 2}
+      spriteIndex: 15
+      actionType: 2
+      coords: {x: -300, y: 120}
+      moveSpeed: 2
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "It translates to \u201CYou\u2019re welcome\u201D in English."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Did you catch that one?
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 96626aa4bde3a5d4da67a268db041a7e, type: 2}
+      spriteIndex: 15
+      actionType: 3
+      coords: {x: -300, y: 120}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: 066201a301492a947ac5c8131f710aa6, type: 2}

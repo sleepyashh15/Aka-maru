@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa21d4123d556443abbbad79a10b72f, type: 3}
+  m_Name: BeforeQuiz
+  m_EditorClassIdentifier: 
+  labels:
+  - text: 'No, could you please repeat everything? '
+    nextScene: {fileID: 11400000, guid: 8323d87be5544e64bad76787ba322873, type: 2}
+  - text: Yes, I am ready for the quiz!
+    nextScene: {fileID: 11400000, guid: 429592e879c93724caa9a65ebbfb93b6, type: 2}

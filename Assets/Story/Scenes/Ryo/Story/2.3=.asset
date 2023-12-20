@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 2.3=
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Now for the second word.
+    audio: {fileID: 8300000, guid: b666cb1f6bcca7646a9a9a1a7a778bff, type: 3}
+    speaker: {fileID: 11400000, guid: 10e8a22380698e642b14fbbee3c142f3, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 10e8a22380698e642b14fbbee3c142f3, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
+    sound: {fileID: 0}
+  - text: "Did you know that you can use an alternative to \u201CWatashi\u201D when
+      introducing yourself? "
+    audio: {fileID: 8300000, guid: 5796276dfdc857d40a390a8c4a63026a, type: 3}
+    speaker: {fileID: 11400000, guid: 10e8a22380698e642b14fbbee3c142f3, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 96626aa4bde3a5d4da67a268db041a7e, type: 2}
+      spriteIndex: 4
+      actionType: 2
+      coords: {x: -300, y: 120}
+      moveSpeed: 2
+    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
+    sound: {fileID: 0}
+  - text: "\u201CWatashi\u201D can be used by both genders when introducing but it
+      is commonly used by Women. \u201CBoku\u201D can be the alternative word for
+      \u201CI/Me/My.\u201D"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 10e8a22380698e642b14fbbee3c142f3, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 10e8a22380698e642b14fbbee3c142f3, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
+    sound: {fileID: 0}
+  - text: "\u201CBoku\u201D is a word exclusive for the Male gender when referring
+      to oneself."
+    audio: {fileID: 8300000, guid: 55e270ee7a3729e4d9424455d833375c, type: 3}
+    speaker: {fileID: 11400000, guid: 10e8a22380698e642b14fbbee3c142f3, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 96626aa4bde3a5d4da67a268db041a7e, type: 2}
+      spriteIndex: 5
+      actionType: 0
+      coords: {x: -300, y: -120}
+      moveSpeed: 2
+    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
+    sound: {fileID: 0}
+  - text: 'Were you able to follow that one? '
+    audio: {fileID: 8300000, guid: 79c4c3324854d914cb09b9bb6085e4d4, type: 3}
+    speaker: {fileID: 11400000, guid: 10e8a22380698e642b14fbbee3c142f3, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 96626aa4bde3a5d4da67a268db041a7e, type: 2}
+      spriteIndex: 5
+      actionType: 2
+      coords: {x: -300, y: -170}
+      moveSpeed: 2
+    - speaker: {fileID: 11400000, guid: 96626aa4bde3a5d4da67a268db041a7e, type: 2}
+      spriteIndex: 5
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 797a54c913c799a41b24c4ba28a008dc, type: 3}
+  nextScene: {fileID: 11400000, guid: 084e6eb510bf0c1409deb532d59fa403, type: 2}

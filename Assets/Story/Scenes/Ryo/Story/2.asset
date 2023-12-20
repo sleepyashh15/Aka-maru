@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "Oh, hey there, Maru. It\u2019s been a while! Oh, and the other one must
+      be Aka."
+    audio: {fileID: 8300000, guid: 6924d23027361cd4fbe918a7c45e8936, type: 3}
+    speaker: {fileID: 11400000, guid: 10e8a22380698e642b14fbbee3c142f3, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 10e8a22380698e642b14fbbee3c142f3, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: 6f5f8e3f6d39d4341b16c5939cdb8273, type: 3}
+    sound: {fileID: 0}
+  - text: My name is Ryo. Yoroshiku!
+    audio: {fileID: 8300000, guid: c8124d75838d5074391f5a8bb27da20d, type: 3}
+    speaker: {fileID: 11400000, guid: 10e8a22380698e642b14fbbee3c142f3, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 10e8a22380698e642b14fbbee3c142f3, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
+    sound: {fileID: 0}
+  - text: "Hello, Ryo! It\u2019s nice to meet you!"
+    audio: {fileID: 8300000, guid: dc36e59b58466c448b59bfa063f2f57a, type: 3}
+    speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
+    sound: {fileID: 0}
+  - text: So, is there anything that I can help you guys with?
+    audio: {fileID: 8300000, guid: 39fb1de56e941754a973e5b6747d72f8, type: 3}
+    speaker: {fileID: 11400000, guid: 10e8a22380698e642b14fbbee3c142f3, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
+    sound: {fileID: 0}
+  - text: 'So, can you help teach Aka a few words about introductions in Nihongo? '
+    audio: {fileID: 8300000, guid: 5a9c0f8328429af4b84902c5f3428aaf, type: 3}
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 797a54c913c799a41b24c4ba28a008dc, type: 3}
+  nextScene: {fileID: 11400000, guid: b4c95ec9f18a6f54795b29154b4bf101, type: 2}

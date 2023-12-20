@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0e6a862dae1ccf488ae4d4570f9f88c, type: 3}
+  m_Name: Hobart
+  m_EditorClassIdentifier: 
+  speakerName: Hobart
+  sprites:
+  - {fileID: 21300000, guid: 59e22c1b3d67a3648a2e509c11025f5e, type: 3}
+  - {fileID: 21300000, guid: 1157170de82813e42a34ab7bf8e88a65, type: 3}
+  - {fileID: 21300000, guid: c5d22622bf48bd145a65b946b7be0468, type: 3}
+  prefab: {fileID: 4970273442459607001, guid: c62501896251de247a5e38e0ca93d7eb, type: 3}

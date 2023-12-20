@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa21d4123d556443abbbad79a10b72f, type: 3}
+  m_Name: Quiz5
+  m_EditorClassIdentifier: 
+  labels:
+  - text: '"Boku"'
+    nextScene: {fileID: 11400000, guid: 29a0b6a5db5146d4aa3a45caf17e7aaa, type: 2}
+  - text: '"Bokutachi"'
+    nextScene: {fileID: 11400000, guid: 4ef910a13de2d9e4ea9b469f6a9b2ea7, type: 2}
+  - text: '"Kimi"'
+    nextScene: {fileID: 11400000, guid: 4ef910a13de2d9e4ea9b469f6a9b2ea7, type: 2}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0e6a862dae1ccf488ae4d4570f9f88c, type: 3}
+  m_Name: Maru
+  m_EditorClassIdentifier: 
+  speakerName: Maru
+  textColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  sprites:
+  - {fileID: 21300000, guid: f876182ab1b6c944297f1c48004c9eb8, type: 3}
+  - {fileID: 21300000, guid: 896e638087a09ab4ca7581f5c5c2ee1d, type: 3}
+  - {fileID: 21300000, guid: decf31328a65f3742a9e08e207c34d38, type: 3}
+  prefab: {fileID: 4970273442459607001, guid: a67273ce09a30ca4ebf36718492c6415, type: 3}

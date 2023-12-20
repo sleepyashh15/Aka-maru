@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: NanamiQuestion5
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "Question: What does the term \u201COgenki de\u201D mean?"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: b387c0cb4f63c7c48a3900012d9dc617, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: 2e329e6fb6d6cd04095e887237896217, type: 2}

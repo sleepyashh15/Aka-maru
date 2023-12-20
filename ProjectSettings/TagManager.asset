@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - Arc
+  - SolidObjects
+  - Interactable
+  - Portal
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 254166791
+    locked: 0
+  - name: Foreground
+    uniqueID: 38882051
+    locked: 0
+  - name: SolidObjects
+    uniqueID: 3125863387
+    locked: 0
+  - name: Player
+    uniqueID: 2378868209
+    locked: 0
+  - name: Fountain
+    uniqueID: 3291918115
+    locked: 0
+  - name: Arc
+    uniqueID: 2895799415
+    locked: 0
+  - name: Canvas
+    uniqueID: 2508048997
+    locked: 0

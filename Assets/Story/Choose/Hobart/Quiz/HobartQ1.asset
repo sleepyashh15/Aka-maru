@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa21d4123d556443abbbad79a10b72f, type: 3}
+  m_Name: HobartQ1
+  m_EditorClassIdentifier: 
+  labels:
+  - text: '"Matcha"'
+    nextScene: {fileID: 11400000, guid: cfa178f2560247342bfd5e23a74e7515, type: 2}
+  - text: '"Hachi"'
+    nextScene: {fileID: 11400000, guid: 0095a0b8a83079d44abcd2b14a6e9e40, type: 2}
+  - text: ' "Ichi"'
+    nextScene: {fileID: 11400000, guid: cfa178f2560247342bfd5e23a74e7515, type: 2}

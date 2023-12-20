@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0e6a862dae1ccf488ae4d4570f9f88c, type: 3}
+  m_Name: Nanami
+  m_EditorClassIdentifier: 
+  speakerName: Nanami
+  sprites:
+  - {fileID: 21300000, guid: 1d2cb2bd141630d4d880ccd7b86a806f, type: 3}
+  - {fileID: 21300000, guid: d07dff74f3fc0604bbed94c59cbe6ad7, type: 3}
+  - {fileID: 21300000, guid: 3c7f5f6c148f4634c8bc749e9c73f27a, type: 3}
+  prefab: {fileID: 4970273442459607001, guid: 28adbf56599c12d49845a531ed357d24, type: 3}

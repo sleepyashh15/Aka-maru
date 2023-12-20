@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 2.3 Incorrect
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Would you mind repeating it?
+    audio: {fileID: 8300000, guid: 99c3d7ef01b5e3b4792eed771a411e96, type: 3}
+    speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 2
+      actionType: 1
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
+    sound: {fileID: 0}
+  - text: Alright, no worries.
+    audio: {fileID: 8300000, guid: 91f03bacb6c3392408ac96858e18907f, type: 3}
+    speaker: {fileID: 11400000, guid: 10e8a22380698e642b14fbbee3c142f3, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 10e8a22380698e642b14fbbee3c142f3, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 797a54c913c799a41b24c4ba28a008dc, type: 3}
+  nextScene: {fileID: 11400000, guid: 01bd5baef0cace144bbd889f3b4148bb, type: 2}

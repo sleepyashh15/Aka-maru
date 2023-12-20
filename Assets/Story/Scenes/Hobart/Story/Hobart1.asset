@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: Hobart1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: 'Yo, I am Hobart. I am Carmel''s elder brother. Nice to meet you!  '
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 0b60aa8772fd0744b9222e839a66c7c1, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 0b60aa8772fd0744b9222e839a66c7c1, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Hello, It\u2019s nice meeting you, Hobart. "
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 0b60aa8772fd0744b9222e839a66c7c1, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: ' We were born and raised in this town, I heard from Carmel that you are
+      trying to learn Nihongo. '
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 0b60aa8772fd0744b9222e839a66c7c1, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 0b60aa8772fd0744b9222e839a66c7c1, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Yeah, your brother taught me some, I would be happy to learn more.
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 0b60aa8772fd0744b9222e839a66c7c1, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: " Okay sure, I\u2019m going to teach you some more about numbers.  "
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 0b60aa8772fd0744b9222e839a66c7c1, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 0b60aa8772fd0744b9222e839a66c7c1, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: 'Are you ready? '
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 0b60aa8772fd0744b9222e839a66c7c1, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 0b60aa8772fd0744b9222e839a66c7c1, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: ' Yes I am!!! '
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 0b60aa8772fd0744b9222e839a66c7c1, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: 'Here we go. '
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 0b60aa8772fd0744b9222e839a66c7c1, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 0b60aa8772fd0744b9222e839a66c7c1, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: 406ae77218eaef54d88b0624ae254382, type: 2}

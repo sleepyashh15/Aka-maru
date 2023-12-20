@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: LunaQ5 Incorrect
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "Oops, that\u2019s the wrong answer!"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: fa3195d450c2fe54e95e56c128dbf970, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: fa3195d450c2fe54e95e56c128dbf970, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 375be637242b987479ed69a494271626, type: 3}
+  background: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: a573cc434c473b1459278e29d9adcb74, type: 2}

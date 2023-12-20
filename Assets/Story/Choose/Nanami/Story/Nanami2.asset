@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa21d4123d556443abbbad79a10b72f, type: 3}
+  m_Name: Nanami2
+  m_EditorClassIdentifier: 
+  labels:
+  - text: '"Yes"'
+    nextScene: {fileID: 11400000, guid: 5ebb378220bed57439bcd3d130c50739, type: 2}
+  - text: '"No"'
+    nextScene: {fileID: 11400000, guid: db39831611d4fbb48a1d0adf92f10e14, type: 2}

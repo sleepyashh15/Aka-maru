@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: Correct1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Wonderful! you got it right!
+    audio: {fileID: 8300000, guid: be1f144e2eac6514c9d7c0a45f3408ef, type: 3}
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 2
+      actionType: 1
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: 5dcef175982b6e446b3efdbf4d9078f9, type: 3}
+    sound: {fileID: 8300000, guid: bcd9fa6e9763112428abaf897985b456, type: 3}
+  background: {fileID: 21300000, guid: 797a54c913c799a41b24c4ba28a008dc, type: 3}
+  nextScene: {fileID: 11400000, guid: e2f93510d74c6dd4ab77f39f30f07ebd, type: 2}

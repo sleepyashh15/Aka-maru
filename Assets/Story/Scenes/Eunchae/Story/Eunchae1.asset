@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: Eunchae1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: 'Hello there, My name is NPC 3.1. '
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: e60930bcf39af5d4291a7d5aef99572e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: e60930bcf39af5d4291a7d5aef99572e, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: 'Hello NPC 3.1 . '
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: e60930bcf39af5d4291a7d5aef99572e, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: 'Are you new to this place? '
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: e60930bcf39af5d4291a7d5aef99572e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: e60930bcf39af5d4291a7d5aef99572e, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Yeah, I\u2019m here to learn Nihongo. "
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: e60930bcf39af5d4291a7d5aef99572e, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: 'Oh I see, Have you eaten yet? '
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: e60930bcf39af5d4291a7d5aef99572e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: e60930bcf39af5d4291a7d5aef99572e, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: 'Ohh, not yet. Something came up in my mind. '
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: e60930bcf39af5d4291a7d5aef99572e, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: ' What is it? Is there something I can help you with? '
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: e60930bcf39af5d4291a7d5aef99572e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: e60930bcf39af5d4291a7d5aef99572e, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: 'Can you teach me some Japanese terms about food and drinks? '
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: e60930bcf39af5d4291a7d5aef99572e, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: 'Sure, No Problem. '
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: e60930bcf39af5d4291a7d5aef99572e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 13f367b77c9bb104589e7b5020d26105, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: -250, y: 60}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: e60930bcf39af5d4291a7d5aef99572e, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 250, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: b3a072d467ae48747ab826360c60e5c2, type: 2}
